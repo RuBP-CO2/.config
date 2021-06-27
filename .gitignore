@@ -3,5 +3,5 @@
 .vim/autoload/
 !.gitignore
 !alacritty/
-!zshrc
+!.zshrc
 !.Xmodmap
