@@ -1,8 +1,7 @@
 *
+!.vim/
 .vim/plugged/
 .vim/autoload/
-!.vim/vimrc
-!.vim/init.vim
 !.gitignore
 !alacritty/
 !zshrc
