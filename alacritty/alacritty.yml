@@ -28,10 +28,10 @@ colors:
    white:   '#f1f1f0'
 
 # Transparent
-background_opacity: 0.85
+background_opacity: 0.8
 
 font:
-  size: 12
+  size: 10
 
 tabspaces: 4
 
