@@ -15,6 +15,8 @@ set wrap
 set showcmd
 set wildmenu
 set cmdheight=2
+set tabstop=4
+set shiftwidth=4
 
 set nocompatible
 filetype on
@@ -161,7 +163,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'connorholyday/vim-snazzy'
+Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'OmniSharp/omnisharp-vim'
@@ -170,4 +172,9 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 
 call plug#end()
 
-let g:SnazzyTransparent = 1
+let g:gruvboxTransparent = 1
+
+" 使用gruvbox配色
+colorscheme gruvbox
+set background=dark
+highlight Normal guibg=NONE ctermbg=None
