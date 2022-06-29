@@ -3,6 +3,4 @@
 .vim/autoload/
 !.gitignore
 !alacritty/
-!.zshrc
 !.Xmodmap
-!.p10k.zsh
